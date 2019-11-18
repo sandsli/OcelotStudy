@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29503.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OcelotDemo", "OcelotDemo.csproj", "{98A2D11D-E266-445F-BA3B-D93BCEB92710}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "APi", "APi", "{93996A16-1088-48F7-BBD1-D796E56E74C2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi1", "..\WebApi1\WebApi1.csproj", "{3CD13902-1698-4E53-8C1C-0AED7265505C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi2", "..\WebApi2\WebApi2.csproj", "{5582D05E-D9F3-4D4D-A60A-2028A8CF0A36}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi3", "..\WebApi3\WebApi3.csproj", "{FBB5EE66-BDF7-40BD-B900-FC5765649315}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ocelot", "..\..\..\Ocelot\src\Ocelot\Ocelot.csproj", "{3F0D6EA8-BBC5-4FD9-9473-C0FD523CDABD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ocelots", "Ocelots", "{F0DA98CD-52A6-4D86-9A1C-0F2A1BE642F9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{98A2D11D-E266-445F-BA3B-D93BCEB92710}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98A2D11D-E266-445F-BA3B-D93BCEB92710}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98A2D11D-E266-445F-BA3B-D93BCEB92710}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98A2D11D-E266-445F-BA3B-D93BCEB92710}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CD13902-1698-4E53-8C1C-0AED7265505C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CD13902-1698-4E53-8C1C-0AED7265505C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CD13902-1698-4E53-8C1C-0AED7265505C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CD13902-1698-4E53-8C1C-0AED7265505C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5582D05E-D9F3-4D4D-A60A-2028A8CF0A36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5582D05E-D9F3-4D4D-A60A-2028A8CF0A36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5582D05E-D9F3-4D4D-A60A-2028A8CF0A36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5582D05E-D9F3-4D4D-A60A-2028A8CF0A36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBB5EE66-BDF7-40BD-B900-FC5765649315}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBB5EE66-BDF7-40BD-B900-FC5765649315}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBB5EE66-BDF7-40BD-B900-FC5765649315}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBB5EE66-BDF7-40BD-B900-FC5765649315}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F0D6EA8-BBC5-4FD9-9473-C0FD523CDABD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F0D6EA8-BBC5-4FD9-9473-C0FD523CDABD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F0D6EA8-BBC5-4FD9-9473-C0FD523CDABD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F0D6EA8-BBC5-4FD9-9473-C0FD523CDABD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3CD13902-1698-4E53-8C1C-0AED7265505C} = {93996A16-1088-48F7-BBD1-D796E56E74C2}
+		{5582D05E-D9F3-4D4D-A60A-2028A8CF0A36} = {93996A16-1088-48F7-BBD1-D796E56E74C2}
+		{FBB5EE66-BDF7-40BD-B900-FC5765649315} = {93996A16-1088-48F7-BBD1-D796E56E74C2}
+		{3F0D6EA8-BBC5-4FD9-9473-C0FD523CDABD} = {F0DA98CD-52A6-4D86-9A1C-0F2A1BE642F9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {973084F0-7BE3-4ED4-B5BE-9F247971670A}
+	EndGlobalSection
+EndGlobal
